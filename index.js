@@ -19,7 +19,7 @@
   const CONFIG = {
     // ВАШ GITHUB GIST (уже настроен!)
     gistUrl:
-      "https://gist.githubusercontent.com/pixel-yerzat/baf563887cbc89b68b8858ced60a05ca/raw/",
+      "https://gist.githubusercontent.com/pixel-yerzat/71074b58c72489de15c87f5aad698b2f/raw/",
 
     // Настройки отображения
     debug: true, // true = показывать логи в консоли
