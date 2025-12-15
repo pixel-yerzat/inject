@@ -202,8 +202,7 @@
       hint.className = "qa-hint";
       hint.style.cssText = `
                 display: inline-block;
-                margin-left: 8px;
-                font-size: 0.9em;
+                font-size: 12px;
                 color: #888;
                 opacity: 0.5;
                 cursor: help;
@@ -223,16 +222,12 @@
       const box = document.createElement("div");
       box.className = "qa-answer-visible";
       box.style.cssText = `
-                
-                padding: 12px 16px;
-                margin: 10px 0;
-                border-radius: 6px;
                 font-size: 0.95em;
             `;
       box.innerHTML = `
                 <span style="">${match.answer}</span>
                 <span style="font-size: 0.75em; color: #666; margin-left: 10px;">
-                    (${Math.round(match.similarity * 100)}% дәлдік)
+                    .
                 </span>
             `;
 
